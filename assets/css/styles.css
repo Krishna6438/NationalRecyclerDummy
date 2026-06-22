@@ -330,6 +330,21 @@ ul {
   background-color: var(--color-accent);
 }
 
+.logo-img {
+  height: 65px;
+  width: auto;
+  object-fit: contain;
+  transition: all var(--transition-normal);
+}
+
+.header.scrolled .logo-img {
+  height: 50px;
+}
+
+.logo:hover .logo-img {
+  transform: scale(1.05);
+}
+
 .logo-text span {
   color: var(--color-accent);
 }
